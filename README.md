@@ -44,3 +44,20 @@ The system enables multiple clients to connect simultaneously to a central serve
 ```bash
 javac Server.java ConsoleClient.java ServerGUI.java ClientGUI.java
 ```
+
+### Running the System
+1. Start the Server:
+
+```
+java Server
+# Or run ServerGUI for the graphical view
+```
+
+2. Start Client Instances:
+
+```
+java ConsoleClient
+# Or run ClientGUI for the Swing desktop interface
+```
+
+Enter the server's IP address (e.g., 127.0.0.1 for localhost or the host's LAN IP).
